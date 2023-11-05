@@ -9,7 +9,7 @@ El descompilador no puede asignar los nombres de las variables dentro de los arg
 
 <table>
 <tr>
-<td width='50%'>
+<td>
       
 ```python      
 self.config(self.barra_de_menus, **('menu',))
@@ -18,7 +18,9 @@ self.menu1.add_command('Nuevo', self.nuevo, **('label', 'command'))
 ```
 
 </td>
-<td width='50%'>
+</tr>
+<tr>
+<td>
 
 ```python      
 self.config(menu=self.barra_de_menus)
@@ -44,6 +46,8 @@ selectordearchivo = filedialog.askopenfile((('text files', '*.txt'), ('All files
 ```
 
 </td>
+</tr>
+<tr>
 <td>
 
 ```python      
